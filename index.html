@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>개똥꼬네 가족 AI센터</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🏠 개똥꼬네 가족 AI센터</h1>
+    <p>우리 가족의 행복한 일상 공간</p>
+  </header>
+
+  <main>
+   
+<section class="family-section">
+    <h2>👨‍👩‍👦🐱 우리 가족</h2>
+  
+    <img
+      src="images/family.png"
+      alt="아빠, 엄마, 로하, 코코 가족 그림"
+      class="family-photo"
+    >
+  
+    <p>👨 아빠 | 👩 엄마 | 👦 로하 | 🐱 코코</p>
+  </section>
+  
+
+
+    <section class="calendar-section">
+        <h2>📅 가족 일정표</h2>
+      
+        <div class="calendar-nav">
+          <button id="prevMonth">◀</button>
+          <h3 id="monthTitle"></h3>
+          <button id="nextMonth">▶</button>
+        </div>
+      
+        <div id="calendarGrid" class="calendar-grid"></div>
+      
+        <h3 id="selectedDateTitle">날짜를 선택하세요</h3>
+        <ul id="scheduleList"></ul>
+      
+        <select id="schedulePerson">
+          <option>가족 공통</option>
+          <option>아빠</option>
+          <option>엄마</option>
+          <option>로하</option>
+          <option>코코</option>
+        </select>
+      
+        <input id="scheduleInput" placeholder="일정 입력">
+        <button id="addSchedule">일정 추가</button>
+      </section>
+      
+
+    <section>
+      <h2>✅ 오늘의 할 일</h2>
+      <p>오늘 해야 할 일을 확인합니다.</p>
+    </section>
+
+    <section>
+      <h2>🛒 장보기 목록</h2>
+      <p>필요한 물건을 기록합니다.</p>
+    </section>
+
+    <section>
+      <h2>📝 가족 메모</h2>
+      <p>가족에게 전달할 내용을 남깁니다.</p>
+    </section>
+
+    <section>
+      <h2>🐱 코코 돌보기</h2>
+      <p>사료, 빗질, 병원 일정을 관리합니다.</p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
